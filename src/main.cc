@@ -17,9 +17,9 @@ int main (int argc, char * argv[]) {
     return(1);
   }
 
-//  system -> initialize(argv[1]);
-//  system -> iterate();
-//  system -> output();    
+  system -> initialize(argv[1]);
+  system -> iterate();
+  system -> output();    
 
   return(0);
 }
